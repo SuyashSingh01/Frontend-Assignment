@@ -28,7 +28,7 @@ const HomePage = () => {
         </div>
         <CategoryCard />
       </section>
-      <div className="p-6 bg-white border-2 my-5 md:my-20 h-[44rem] border-red-600">
+      <div className="p-6 bg-white  my-5 md:my-20 h-[44rem] ">
         <div className='relative mx-auto'>
           <div className='absolute left-10 top-0'>
             <img src={img1} alt="image" className='h-[40rem] w-[60rem]' />
