@@ -20,7 +20,7 @@ function BlogPost() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="max-w-5xl mx-auto px-4 py-8">
       {/* Header */}
       <div className="text-center mb-8">
         <h2 className="text-xl font-semibold text-gray-500">{story.author}</h2>
@@ -40,13 +40,19 @@ function BlogPost() {
       </div>
 
       {/* Content */}
-      <div className="space-y-6 text-gray-700">
+      <div className="space-y-6 text-gray-700 max-w-4xl">
         <p>
           {story.Description}
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className='font-headingfont font-bold text-2xl'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed porro nostrum similique commodi voluptatum perferendis facere iste vero ratione autem quia fugiat distinctio placeat, fuga tempora iure quisquam dolorem quo?
+          Beatae fuga at corrupti, voluptas voluptate asperiores voluptates atque rerum ea dolor dicta fugit unde sunt recusandae nisi expedita dignissimos quae mollitia consequuntur ex ratione veritatis enim aliquid. Dolores, similique.
+          Qui repellendus, repellat, nam quae deserunt earum excepturi atque odio assumenda eius eligendi modi iure blanditiis quo, recusandae minima iusto quod sequi fugiat molestiae rem in tenetur! Saepe, iure corrupti!
         </p>
         <ul className="list-disc ml-6 space-y-2">
           <li>Lorem ipsum dolor sit amet</li>
@@ -54,8 +60,14 @@ function BlogPost() {
           <li>Massa eget egestas purus viverra accumsan</li>
         </ul>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className='font-headingfont font-bold text-2xl'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur sit atque vero laudantium, quis minima eius architecto, voluptates repudiandae, dolores a possimus dolorum odit fugit. Veniam recusandae cupiditate quaerat ipsa.
+          Odit quasi dicta, alias voluptatum commodi atque magni illum esse ratione quaerat sit suscipit aliquid quidem architecto mollitia, exercitationem eum soluta, eaque ea fuga beatae? Dolor velit dolores earum quibusdam.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam totam expedita ut rerum omnis! Similique eius quis voluptatibus alias vero quia totam. Ducimus itaque accusamus illo tenetur, unde voluptatibus.
+
         </p>
       </div>
 

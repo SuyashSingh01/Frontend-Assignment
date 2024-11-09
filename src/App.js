@@ -14,7 +14,7 @@ import '../src/App.css';
 
 const App = () => {
   return (
-      <div className="flex flex-col min-h-screen ">
+      <div className="flex flex-col min-h-screen min-w-[398px] ">
         <Navbar />
         <main className="flex-grow">
           <Routes>

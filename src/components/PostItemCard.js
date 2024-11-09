@@ -1,13 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function PostItemCard({ index, Item, navigate }) {
+function PostItemCard({ index, Item}) {
     const { Tag, Title, Description, Image, id } = Item;
 
     return (
         <NavLink to={`/blogpost/${id}`} key={index}
         >
-            <div className='flex flex-col md:flex-row  w-full justify-between items-center '>
+            <div className='flex flex-col md:flex-row  w-full justify-between items-center'>
                 <img src={Image} alt="post" className="w-25 h-25 md:w-50% md:h-50% object-cover rounded-sm" />
                 <div className="flex flex-col inset-1 hover:bg-[#FFD050] transition duration-300 text-wrap md:p-10 p-2">
                     <h3 className="text-md text-[#232536]">{Tag} </h3>
