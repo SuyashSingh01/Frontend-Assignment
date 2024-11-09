@@ -50,49 +50,59 @@ export const Data = [
 ]
 
 export const posts = [
-    { title: "8 Figma design systems that you can download for free today.", author: "James Doe", date: "Aug 23, 2023", image: img1, Tag: "Startup", Description: "This is the description of the post" },
-    { title: "8 Figma design systems that you can download for free today.", author: "James Doe", date: "Aug 23, 2023", image: img1, Tag: "Startup", Description: "This is the description of the post" },
-    { title: "8 Figma design systems that you can download for free today.", author: "James Doe", date: "Aug 23, 2023", image: img1, Tag: "Startup", Description: "This is the description of the post" },
-    { title: "8 Figma design systems that you can download for free today.", author: "James Doe", date: "Aug 23, 2023", image: img1, Tag: "Startup", Description: "This is the description of the post" }
+    {
+        id: "1", title: "8 Figma design systems that you can download for free today.", author: "James Doe", date: "Aug 23,2025", image: img1, Tag: "Startup", Description: "This is the description of the post"
+
+    },
+    { id: "2", title: "8 Figma design systems that you can download for free today.", author: "", date: "Aug 23, 2023", image: img2, Tag: "Startup", Description: "This is the description of the post" },
+
+    { id: "3", title: "8 Figma design systems that you can download for free today.", author: "Ronaldo James ", date: "Aug 23, 2023", image: img3, Tag: "Startup", Description: "This is the description of the post" },
+
+    { id: "4", title: "8 Figma design systems that you can download for free today.", author: "Jame", date: "Aug 23, 2023", image: img4, Tag: "Startup", Description: "This is the description of the post" }
+];
+export const Relatedpost = [
+    { id: 1, img: img1 }, 
+    { id: 2, img: img2 },
+    { id: 3, img: img3 }
 ];
 
 export const categories = ["Startup", "Business", "Economy", "Technology"];
 export const tags = ["Business", "Experience", "Screen", "Technology", "Marketing", "Life"];
 
 
-export const authors = [
-    { id:'1',name: "Floyd Miles", role: "Content Writer", image: logo1 },
-    { id:'2',name: "Dianne Russell", role: "Content Strategist", image: logo2 },
-    { id:'3',name: "Jenny Wilson", role: "Editor", image: logo3 },
-    { id:'4',name: "Leslie Alexander", role: "Creative Writer", image: logo4 },
-    { id:'5',name: "Dianne Russell", role: "Content Strategist", image: logo2 },
-    { id:'6',name: "Leslie Alexander", role: "Creative Writer", image: logo4 },
-    { id:'7',name: "Floyd Miles", role: "Content Writer", image: logo1 },
-    { id:'8',name: "Jenny Wilson", role: "Editor", image: logo3 }
+export const Authors = [
+    { id: '1', name: "Floyd Miles", role: "Content Writer", image: logo1 },
+    { id: '2', name: "Dianne Russell", role: "Content Strategist", image: logo2 },
+    { id: '3', name: "Jenny Wilson", role: "Editor", image: logo3 },
+    { id: '4', name: "Leslie Alexander", role: "Creative Writer", image: logo4 },
+    { id: '5', name: "Dianne Russell", role: "Content Strategist", image: logo2 },
+    { id: '6', name: "Leslie Alexander", role: "Creative Writer", image: logo4 },
+    { id: '7', name: "Floyd Miles", role: "Content Writer", image: logo1 },
+    { id: '8', name: "Jenny Wilson", role: "Editor", image: logo3 }
 ];
-export const category=[{
-    id:1,
-    name:"Startup",
-    image:image1,
-    Description:"lorem ipsum dolor sit amet, consectetur adip temp  labore et dolore magna aliqua. "
-    },
-    {
-    id:2,
-    name:"Business",
-    image:image2,
-    Description:"lorem ipsum dolor sit amet, consectetur adip temp  labore et dolore magna aliqua. "
-    },
-    {
-    id:3,
-    name:"Technology",
-    image:image3,
-    Description:"lorem ipsum dolor sit amet, consectetur adip temp  labore et dolore magna aliqua. "
-    },
-    {  
-        id:4,
-        name:"Economy",
-        image:image4,
-        Description:"lorem ipsum dolor sit amet, consectetur adip temp  labore et dolore magna aliqua. "
+export const category = [{
+    id: 1,
+    name: "Startup",
+    image: image1,
+    Description: "lorem ipsum dolor sit amet, consectetur adip temp  labore et dolore magna aliqua. "
+},
+{
+    id: 2,
+    name: "Business",
+    image: image2,
+    Description: "lorem ipsum dolor sit amet, consectetur adip temp  labore et dolore magna aliqua. "
+},
+{
+    id: 3,
+    name: "Technology",
+    image: image3,
+    Description: "lorem ipsum dolor sit amet, consectetur adip temp  labore et dolore magna aliqua. "
+},
+{
+    id: 4,
+    name: "Economy",
+    image: image4,
+    Description: "lorem ipsum dolor sit amet, consectetur adip temp  labore et dolore magna aliqua. "
 
-    }
+}
 ]

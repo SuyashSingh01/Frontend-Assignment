@@ -86,7 +86,7 @@ const About = () => {
       </div>
 
       {/* List of Authors */}
-        <ListofAuthors/>
+        <ListofAuthors ele={8}/>
       <JointeamSection />
     </div>
 

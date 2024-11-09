@@ -1,11 +1,16 @@
 import React from 'react'
-import { authors } from '../Data';
+import { Authors }  from '../Data';
+import { NavLink } from 'react-router-dom';
 
-function ListofAuthors() {
+function ListofAuthors({ele}) {
+    const authors = Authors.slice(0,ele);
+    console.log("authors",authors);
     return (
-        <div><h3 className="text-2xl font-bold text-center mb-6">List of Authors</h3>
+
+        <div><h3 className="text-center mb-6 text-xl md:text-4xl font-bold font-headingfont text-[#232536] p-2 md:p-12 md:my-10 my-4">List of Authors</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 {authors.map((author, index) => (
+                    <NavLink to={`/author/${author.id}`}>
                     <div key={index} className="text-center bg-[#F4F4F4] hover:bg-[#FBF6EA]    rounded-sm shadow-md p-10">
                         <img src={author.image} alt={author.name} className="w-24 h-24 rounded-full mx-auto mb-4" />
                         <h4 className="text-lg font-semibold">{author.name}</h4>
@@ -25,6 +30,7 @@ function ListofAuthors() {
                             </a>
                         </div>
                     </div>
+                    </NavLink>
                 ))}
             </div></div>
     )

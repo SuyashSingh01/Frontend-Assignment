@@ -4,7 +4,7 @@ const AllPosts = () => {
   return (
     <section className="p-6 bg-white">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl font-bold text-[#232536]">All Posts</h2>
+        <h2 className="text-xl md:text-4xl font-bold font-headingfont text-[#232536] p-2 md:p-6">All Posts</h2>
         <a href="#view-all" className="text-[#6D6E76] hover:underline">View All</a>
       </div>
       <div className="space-y-4">

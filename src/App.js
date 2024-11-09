@@ -20,10 +20,9 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:id" element={<BlogPost />} />
+            <Route path="/blogpost/:id" element={<BlogPost />} />
             <Route path="/about" element={<About />} />
             <Route path="/category" element={<Category />} />
-            <Route path="/author" element={<Author />} />
             <Route path="/author/:id" element={<Author/>} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />

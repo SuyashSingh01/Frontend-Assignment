@@ -10,7 +10,7 @@ const About = () => {
           <h3 className="text-xl font-bold font-headingfont text-[#232536] mb-2">ABOUT US</h3>
           <p className='text-3xl font-bold font-headingfont text-black '>We are a community of content writers who share their learnings.</p>
           <p className="mt-4 font-bodyfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button className='text-purple-700 mt-5  font-extrabold'>Read more {">"}</button>
+          <button className='text-purple-700 mt-5 font-extrabold'>Read more {">"}</button>
         </div>
         <div className='p-10'>
           <h3 className="text-xl font-bold text-[#232536] mb-2 font-headingfont">OUR MISSION</h3>
