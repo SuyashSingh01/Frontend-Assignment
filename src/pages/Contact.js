@@ -24,7 +24,8 @@ const Contact = () => {
           data: data,
         })
       });
-
+      const responseData = await response.json();
+      console.log("RESPONSE DATA - ", responseData)
       setLoading(false)
     } catch (error) {
       console.log("ERROR MESSAGE - ", error.message)

@@ -1,7 +1,6 @@
 // src/components/Footer.js
-import React from 'react';
-
-
+import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -12,17 +11,17 @@ const Footer = () => {
         <div className="flex justify-between items-center mb-10">
           <div className="text-2xl font-bold">{'{Finsweet'}</div>
           <nav className="space-x-6 text-sm">
-            <a href="#home" className="hover:text-[#FFD050] transition">Home</a>
-            <a href="#blog" className="hover:text-[#FFD050] transition">Blog</a>
-            <a href="#about" className="hover:text-[#FFD050] transition">About us</a>
-            <a href="#contact" className="hover:text-[#FFD050] transition">Contact us</a>
-            <a href="#privacy" className="hover:text-[#FFD050] transition">Privacy Policy</a>
+            <NavLink to='/' className="hover:text-[#FFD050] transition">Home</NavLink>
+            <NavLink to="/blog" className="hover:text-[#FFD050] transition">Blog</NavLink>
+            <NavLink to="/about" className="hover:text-[#FFD050] transition">About us</NavLink>
+            <NavLink to="/contact" className="hover:text-[#FFD050] transition">Contact us</NavLink>
+            <NavLink to='/privacy-policy' className="hover:text-[#FFD050] transition">Privacy Policy</NavLink>
           </nav>
         </div>
 
         {/* Middle Row: Newsletter Subscription */}
         <div className="bg-[#1E1E2C] py-8 px-6 rounded-lg flex flex-col md:flex-row items-center justify-between mb-10">
-          <h3 className="text-xl font-semibold mb-4 md:mb-0">Subscribe to our newsletter to get latest updates and news</h3>
+          <h3 className="text-xl md:text-2xl font-headingfont font-semibold mb-4 md:mb-0">Subscribe to our newsletter to get latest updates and news</h3>
           <div className="flex">
             <input
               type="email"
